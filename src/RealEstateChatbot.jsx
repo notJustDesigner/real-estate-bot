@@ -3,7 +3,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 import { Upload, Send, Download, MessageSquare } from 'lucide-react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'https://real-estate-chatbot-backend-bdex.onrender.com/api';
 
 const RealEstateChatbot = () => {
   const [messages, setMessages] = useState([]);
