@@ -8,4 +8,13 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    host: true,  // Allows 0.0.0.0 binding (for Render)
+    port: process.env.PORT || 5173,  // Dynamic port for Render
+    allowedHosts: [
+      'localhost',
+      '127.0.0.1',
+      '.onrender.com',  // Wildcard for all Render subdomains (secure & future-proof)
+    ],
+  },
 })
