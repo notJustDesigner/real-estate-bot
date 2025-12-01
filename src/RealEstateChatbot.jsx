@@ -259,7 +259,7 @@ const RealEstateChatbot = () => {
                 </button>
               </div>
               <p className="text-xs text-gray-500 mt-2">
-                Try: "Analyze Wakad" , "Compare Aundh and Akurdi" , "Show price growth for Ambegaon"
+                Try: "Analyze Wakad" , "Compare Aundh and Akurdi" , "Show price growth for Aundh"
               </p>
             </>
           )}
